@@ -4,6 +4,10 @@ A clean and beginner-friendly calculator built with JavaScript, HTML, and CSS. D
 
 ---
 
+## 🖼️ Screenshot
+
+![Calculator Screenshot](assets/simple-js-calculator.png)
+
 ## 💡 Features
 
 - Handles basic arithmetic operations: `+`, `-`, `*`, `/`
@@ -18,7 +22,10 @@ A clean and beginner-friendly calculator built with JavaScript, HTML, and CSS. D
 calculator/
 ├── index.html
 ├── style.css
-└── script.js
+├── script.js
+├── README.md
+└── assets/
+└── calculator-screenshot.png
 
 - `index.html`: Contains the layout and display
 - `style.css`: (Optional) Styling for the calculator
