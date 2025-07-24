@@ -4,6 +4,10 @@ A clean and beginner-friendly calculator built with JavaScript, HTML, and CSS. D
 
 ---
 
+## 🔗 Live Demo
+
+Check it out here 👉 [Live Calculator](https://decisiveHoneyBadger.github.io/calculator/)
+
 ## 🖼️ Screenshot
 
 ![Calculator Screenshot](assets/simple-js-calculator.png)
