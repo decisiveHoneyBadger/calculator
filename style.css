@@ -12,7 +12,7 @@ body {
     padding: 1rem;
     border-radius: 8px;
     background: white;
-    width: 200px;
+    width: 250px;
 }
 
 #display {
@@ -42,4 +42,9 @@ button {
 button.operator {
     background: #f7b731;
     color: white;
+}
+
+button.equal {
+    grid-column: span 3;
+    /* makes "=" button twice as wide */
 }

@@ -18,6 +18,7 @@ Check it out here 👉 [Live Calculator](https://decisiveHoneyBadger.github.io/c
 - Real-time display update
 - Clear (AC) function to reset all inputs
 - Decimal number support
+- Backspace (←) to remove the last digit
 
 ---
 

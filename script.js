@@ -31,16 +31,21 @@ function handleClick(event) {
     // If the button is AC (All Clear)
   } else if (value === 'AC') {
     clear();
-  }
 
+    // If the button is backspace (←)
+  } else if (value === '←') {
+    backspace();
+  }
   // Update the screen after every click
   updateDisplay();
 }
 
 // Adds number to the current input string
 function appendNumber(number) {
+  // Prevents multiple decimals in the same number
+  if (number === '.' && currentInput.includes('.')) return;
+
   currentInput += number;
-  updateDisplay();
 }
 
 // Saves the chosen operator and moves currentInput to previousInput
@@ -95,4 +100,9 @@ function clear() {
   currentInput = '';
   previousInput = '';
   operator = null;
+}
+
+function backspace() {
+  // Removes the kast character from the currentInput
+  currentInput = currentInput.slice(0, -1);
 }
