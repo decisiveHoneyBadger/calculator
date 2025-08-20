@@ -10,7 +10,7 @@ Check it out here 👉 [Live Calculator](https://decisiveHoneyBadger.github.io/c
 
 ## 🖼️ Screenshot
 
-![Calculator Screenshot](assets/simple-js-calculator.png)
+![Calculator Screenshot](assets/simple-js-calculator-2.png)
 
 ## 💡 Features
 
@@ -58,6 +58,7 @@ calculator/
 | `compute()`         | Parses and evaluates expressions                  |
 | `updateDisplay()`   | Shows the latest value in the UI                  |
 | `clear()`           | Resets calculator to initial state                |
+| `backspace()`       | Removes the last digit from current input         |
 
 ---
 
